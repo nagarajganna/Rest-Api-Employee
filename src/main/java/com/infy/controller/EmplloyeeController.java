@@ -23,7 +23,7 @@ import com.infy.service.EmployeeServiceImple;
 public class EmplloyeeController {
 	@Autowired
 	EmployeeServiceImple service;
-	@DeleteMapping("/{empId}")
+	@DeleteMapping("deleteEmployee/{empId}")
 	
 	public ResponseEntity<String>  deleteEmployee(@PathVariable()int  empId )
 	{
